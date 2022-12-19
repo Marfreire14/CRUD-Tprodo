@@ -1,0 +1,48 @@
+Crud da Tprodo.
+
+Instalar o Node js e npm para Windows:
+https://nodejs.org/en/download/
+
+#################################################################
+Iniciar com a criação do ambiente no node, no terminal digitar:
+$ node init -y
+
+#################################################################
+Modulos necessários para preparação do ambiente:
+
+1. express
+2. config
+3. body-parser
+4. cors
+5. mysql2
+6. sequelize
+7. nodemon
+
+#################################################################
+Comando para instalar os modulos via terminal:
+
+$ npm install 
+
+
+##################################################################
+Comandos para rodar servidores:
+
+Rodar o mondemon q é servidor para teste:
+$ npm start
+
+Rodar o servidor definitivo da aplicação:
+$ node api/index.js
+
+Obs.: Comando Ctrl + c deruba o servidor.
+
+Arquivo de configuração da conexão do banco de dados  e da porta do servidor está na pasta = /config/default.json
+
+#################################################################
+Criação das tabelas do banco de dados:
+
+Rodar estes comando no terminal
+ 
+$ node ./api/db/criarTrelacional.js
+
+$ node ./api/db/criarTpesagens.js
+

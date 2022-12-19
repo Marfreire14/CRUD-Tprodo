@@ -1,0 +1,12 @@
+{
+    "mysql": {
+        "db": "tprodo",
+        "usuario": "mfc14",
+        "senha": "Salmo909",
+        "host": "127.0.0.1"
+    },
+
+    "api": {
+        "port":  3000
+    }
+}
