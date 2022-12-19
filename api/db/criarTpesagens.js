@@ -1,5 +1,5 @@
 
-const ModeloTabelaTp = require('../rotas/tprodo/ModeloTabelaTpesagens.js');
+const ModeloTabelaTp = require('../models/ModeloTabelaTpesagens.js');
 
 ModeloTabelaTp
     .sync()
